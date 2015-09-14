@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "iterable-ios-sdk"
+  s.name         = "Iterable"
   s.version      = "0.0.1"
   s.summary      = "Iterable's iOS SDK. Receive and track pushes to Iterable from your iOS app."
   s.homepage     = "https://www.iterable.com"
@@ -9,4 +9,5 @@ Pod::Spec.new do |s|
   s.source_files        = 'Iterable-iOS-SDK/Iterable-iOS-SDK/*.{h,m}'
   s.public_header_files = 'Iterable-iOS-SDK/Iterable-iOS-SDK/*.h'
   s.requires_arc = true
+  s.dependency "JSONModel", "~> 1.1"
 end
